@@ -1,14 +1,18 @@
-Pip Focus Timer - installable offline app (PWA)
+Pip Focus Timer v2.0 - UPDATE INSTRUCTIONS
 
-Install on Android (free, ~5 minutes):
-1. Create a free GitHub account and a new PUBLIC repository, e.g. "pip".
-2. "Add file" > "Upload files" > drag in ALL files from this folder > Commit.
-3. Settings > Pages > Source: "Deploy from a branch", branch "main", folder "/ (root)" > Save.
-4. Wait ~1 minute. Your app is at https://<your-username>.github.io/pip/
-5. Open that link in Chrome on your phone > menu (three dots) > "Install app"
-   (or "Add to Home screen").
-6. Open it once while online. After that it works fully offline.
+Your stats, goals and rewards are kept. Nothing on your phone gets deleted.
 
-Notes:
-- Data (stats, goals, rewards) is saved on your phone only.
-- Allow notifications when asked so you get an alert when a session ends.
+1. Open your "pip" repository on GitHub.
+2. Tap "Add file" > "Upload files".
+3. Drag in ALL files from this folder (index.html, sw.js, manifest.webmanifest,
+   and the icon files). GitHub will replace the old ones with the same names.
+4. Tap "Commit changes".
+5. Wait about 2-5 minutes for GitHub Pages to update.
+6. On your phone, WITH internet on: open Pip, wait ~10 seconds,
+   then close it fully (swipe it away from recent apps) and open it again.
+   You'll see "Pip v2.0" at the bottom of Settings when the update worked.
+   Future updates will show a "New version ready - Refresh" message.
+
+After that it works fully offline again.
+
+Tip: Settings > Save backup, once a week, so your data is safe.
